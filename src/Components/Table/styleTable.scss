@@ -1,0 +1,30 @@
+
+
+.gridTable__header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.headerItem {
+  background: #007bff;
+  color: #fff;
+  text-align: left;
+  padding: 18px;
+}
+
+.headerItem:first-child {
+  border-top-left-radius: 10px;
+}
+
+.headerItem:nth-child(5) {
+  border-top-right-radius: 10px;
+}
+
+.tableBody {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.tableBody:nth-child(odd) {
+  background-color:#e9ecef;
+}

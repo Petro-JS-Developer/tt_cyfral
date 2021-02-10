@@ -1,0 +1,45 @@
+.actionHandler {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 500px;
+  justify-content: center;
+  padding: 15px;
+  background-color: #fff;
+}
+
+
+.inputForm {
+  font-size: 22px;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  color: #808080;
+  padding: 4px;
+  outline-color: #808080;
+
+  &--bc_green {
+    background-color: #59ff2f;
+  }
+
+}
+
+.buttonExit {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 8px 0;
+  background: #007bff;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.25s ease color, 0.25s ease background, 0.25s ease border;
+  font-weight: 700;
+  margin-top: 20px;
+
+  &:hover {
+    border: 2px solid #007bff;
+    background: #fff;
+    color: #007bff;
+  }
+}
